@@ -18,7 +18,7 @@ class TestVisitor:
         visitor = Visitor("Bob")
         assert isinstance(visitor.name, str)
 
-        # does not mutate name if value is not a string
+        # does not mutaite name if value is not a string
         # comment out the next two lines if using Exceptions
         visitor.name = 2
         assert visitor.name == "Bob"

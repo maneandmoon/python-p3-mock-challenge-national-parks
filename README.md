@@ -128,7 +128,7 @@ build out any helper methods if needed.
 ### Aggregate and Association Methods
 
 #### National Park
-
+ 
 - `NationalPark total_visits()`
   - Returns the total number of times a park has been visited
   - Returns `0` if the park has no visits 
